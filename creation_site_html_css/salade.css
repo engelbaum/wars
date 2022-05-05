@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat & family= Open+Sans:ital,wght@0,400;1,300;1,400 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:italdisplay=swap');
+
+html {
+
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+nav {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5Px solid #6f6f6f;
+
+}
+
+nav h1 {
+
+    color: #717171;
+    font-size: 30px;
+
+}
+
+
+nav .onglets {
+    margin-bottom: 3px;
+    margin-left: 200px;
+
+}
+
+nav .onglets a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width:680px) {
+    nav .onglets {
+        margin-left: 0px;
+        margin-bottom: 20Px;
+
+    }
+
+    .main .card {
+
+        margin: 10px;
+    }
+
+    .main .content .card .right img {
+
+        height: 200px;
+        width: 100%;
+        margin-top: 0px;
+        ;
+    }
+
+    .main .content .card {
+        display: block;
+    }
+
+    footer {
+        padding: 30px;
+    }
+}
+
+header h1 {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+
+header h4 {
+
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: solid white;
+}
+
+header button {
+
+    padding: 10px 20px;
+    background-color: #fff;
+    color: black;
+    border: none;
+    font-size: 20Px;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+
+}
+
+.main {
+
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .content .card {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.main .content .card .left {
+
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+}
+
+.main .content .card.right {
+
+    flex: 0 0 70%;
+}
+
+.main .content .card .right img {
+    height: 300px;
+    width: 400px;
+    margin-top: 5px;
+}
+
+header {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('https://www.cora.be/media/25748/colombus_mag_picture_large.jpg');
+    background-size: cover;
+    color: aliceblue;
+    padding: 40px;
+}
+
+footer {
+    margin-top: 40px;
+    border-top: 5px solid #6f6f6f;
+    background-color: black;
+    color: #fff;
+    padding: 30px 100px;
+
+
+}
+
+footer h1 {
+
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: solid #fff;
+    width: 100%;
+    padding-bottom: 5px;
+
+}
+
+footer .services {
+
+
+
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .services .service {
+
+    margin-top: 30px;
+    padding: 10px;
+
+
+}
+
+footer .services .service p {
+
+    max-width: 350px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
